@@ -1,15 +1,12 @@
 {
   "name": "Server8022 Repository",
-  "description": "Cloudstream extension for http://84.54.185.70:8022/",
+  "description": "Cloudstream extension for 84.54.185.70:8022",
   "manifestVersion": 1,
-  "pluginLists": [
-    "https://raw.githubusercontent.com/tat2027/Cloudstream_server8022/main/repo.json"
-  ],
   "plugins": [
     {
       "name": "Server8022",
-      "url": "https://github.com/tat2027/Cloudstream_server8022/archive/refs/heads/main.zip",
       "version": "1.0.0",
+      "url": "https://github.com/tat2027/Cloudstream_server8022/archive/refs/heads/main.zip",
       "package": "com.cloudstream.server8022"
     }
   ]
